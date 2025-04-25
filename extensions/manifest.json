@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Job App Shortcut",
+    "version": "1.0",
+    "description": "Opens the job application web app with the current page's URL.",
+    "permissions": [
+      "tabs",
+      "activeTab"
+    ],
+    "action": {
+      "default_title": "Apply for Job"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
